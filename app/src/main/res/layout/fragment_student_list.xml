@@ -17,6 +17,8 @@
         android:orientation="vertical"
         android:layout_gravity="center">
 
+
+        
         <ImageButton
             android:id="@+id/newStudent"
             android:layout_width="80dp"
