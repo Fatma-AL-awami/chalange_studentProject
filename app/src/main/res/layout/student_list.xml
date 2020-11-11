@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/Student_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:layout_gravity="start|center_vertical"
+
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/Student_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passed"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+
+        android:layout_margin="10dp"
+        android:id="@+id/Student_isPassed_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passed"
+        android:layout_gravity="end|center" />
+
+    <!-- <Button
+        android:id="@+id/bt_deleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#970000"
+        android:gravity="center"
+
+        android:text="Deleted"
+        app:backgroundTint="#F10606" />-->
+
+    <ImageButton
+        android:id="@+id/bt_deleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:gravity="center"
+   android:layout_marginLeft="10dp"
+
+        />
+
+</LinearLayout>

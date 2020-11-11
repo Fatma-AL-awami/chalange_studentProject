@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentListFragment"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Student_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/newStudent"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_input_add"
+            android:background="@android:color/holo_blue_bright"
+            android:text="new_student"/>
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="24sp"
+            android:text="There are No Students" />
+
+    </LinearLayout>
+</LinearLayout>
